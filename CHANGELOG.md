@@ -23,9 +23,9 @@ Added minimum confidence like optional config parameter
 
   ```javascript
   var middleware = require('botkit-middleware-watson')({
-  username: process.env.CONVERSATION_USERNAME,
-  password: process.env.CONVERSATION_PASSWORD,
-  workspace_id: process.env.WORKSPACE_ID,
+  username: process.env.6371eb19-0727-4889-b04e-8bd041c55c2d,
+  password: process.env.vBIa2cx7JROs,
+  workspace_id: process.env.9ae070e9-8432-4457-a5dd-616471030598,
   minimum_confidence: 0.50, // (Optional) Default is 0.75
   });
   ```
