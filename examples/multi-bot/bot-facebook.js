@@ -17,8 +17,8 @@
 var Botkit = require('botkit');
 
 var controller = Botkit.facebookbot({
-  access_token: process.env.FB_ACCESS_TOKEN,
-  verify_token: process.env.FB_VERIFY_TOKEN
+  access_token: process.env.EAADSVgJ8cswBAMz11YyPc5hZBmpFJsXZBxInJShJmbouc8CJbzqRfgs2qZBDA7wZAQbkWbzt2GN5PxcybCWh4VADkrqvnpM4lrqEDymdchBlONFo3ZCUTwhqDhq1stZCyZCZBWZBKNWqXnPzEXlv26dq4oi9hFUWBFUZCMapS4FBmtbWF3i5PAYXr3,
+  verify_token: process.env.EAADSVgJ8cswBAMz11YyPc5hZBmpFJsXZBxInJShJmbouc8CJbzqRfgs2qZBDA7wZAQbkWbzt2GN5PxcybCWh4VADkrqvnpM4lrqEDymdchBlONFo3ZCUTwhqDhq1stZCyZCZBWZBKNWqXnPzEXlv26dq4oi9hFUWBFUZCMapS4FBmtbWF3i5PAYXr3
 });
 
 var bot = controller.spawn();
